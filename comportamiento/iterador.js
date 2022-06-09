@@ -16,3 +16,7 @@ function* iterador(x = []) {
 const lista = [1, 2, 3, 4, 5, 6];
 const gen = iterador(lista);
 console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
